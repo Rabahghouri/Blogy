@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>404 - Blogy Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>404 Page Not Found - TechInsights</title>
+  <meta name="description" content="The page you're looking for cannot be found on TechInsights. Explore our latest technology articles and tutorials instead.">
+  <meta name="keywords" content="404 error, page not found, tech blog, broken link, web development resources">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -45,7 +45,7 @@
         <a href="index.html" class="logo d-flex align-items-end">
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <!-- <img src="assets/img/logo.webp" alt=""> -->
-          <h1 class="sitename">Blogy</h1><span>.</span>
+          <h1 class="sitename">TechInsights</h1><span>.</span>
         </a>
 
         <div class="d-flex align-items-center">
@@ -56,7 +56,7 @@
           </div>
 
           <form class="search-form ms-4">
-            <input type="text" placeholder="Search..." class="form-control">
+            <input type="text" placeholder="Search tech articles..." class="form-control">
             <button type="submit" class="btn"><i class="bi bi-search"></i></button>
           </form>
         </div>
@@ -69,26 +69,26 @@
         <nav id="navmenu" class="navmenu">
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="category.html">Category</a></li>
-            <li><a href="blog-details.html">Blog Details</a></li>
-            <li><a href="author-profile.html">Author Profile</a></li>
-            <li class="dropdown"><a href="#"><span>Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="category.html">Categories</a></li>
+            <li><a href="blog-details.html">Latest News</a></li>
+            <li><a href="author-profile.html">Our Team</a></li>
+            <li class="dropdown"><a href="#"><span>Resources</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="category.html">Category</a></li>
-                <li><a href="blog-details.html">Blog Details</a></li>
-                <li><a href="author-profile.html">Author Profile</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="category.html">Tech Categories</a></li>
+                <li><a href="blog-details.html">Latest News</a></li>
+                <li><a href="author-profile.html">Our Team</a></li>
                 <li><a href="search-results.html">Search Results</a></li>
                 <li><a href="404.html" class="active">404 Not Found Page</a></li>
 
-                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <li class="dropdown"><a href="#"><span>Tech Topics</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                   <ul>
-                    <li><a href="#">Deep Dropdown 1</a></li>
-                    <li><a href="#">Deep Dropdown 2</a></li>
-                    <li><a href="#">Deep Dropdown 3</a></li>
-                    <li><a href="#">Deep Dropdown 4</a></li>
-                    <li><a href="#">Deep Dropdown 5</a></li>
+                    <li><a href="#">Artificial Intelligence</a></li>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Cybersecurity</a></li>
+                    <li><a href="#">Cloud Computing</a></li>
+                    <li><a href="#">Mobile Apps</a></li>
                   </ul>
                 </li>
               </ul>
@@ -111,30 +111,76 @@
 
         <div class="text-center">
           <div class="error-icon mb-4" data-aos="zoom-in" data-aos-delay="200">
-            <i class="bi bi-exclamation-circle"></i>
+            <i class="bi bi-bug"></i>
           </div>
 
           <h1 class="error-code mb-4" data-aos="fade-up" data-aos-delay="300">404</h1>
 
-          <h2 class="error-title mb-3" data-aos="fade-up" data-aos-delay="400">Oops! Page Not Found</h2>
+          <h2 class="error-title mb-3" data-aos="fade-up" data-aos-delay="400">Debugging Required: Page Not Found</h2>
 
           <p class="error-text mb-4" data-aos="fade-up" data-aos-delay="500">
-            The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.
+            The technology article or resource you're looking for seems to have encountered a routing error. 
+            It might have been moved, updated, or temporarily unavailable. Let's help you find what you need.
           </p>
 
+          <div class="tech-suggestions mb-5" data-aos="fade-up" data-aos-delay="550">
+            <h4 class="mb-3">Popular Tech Topics You Might Be Looking For:</h4>
+            <div class="tech-tags">
+              <a href="category.html" class="tech-tag">Web Development</a>
+              <a href="category.html" class="tech-tag">Artificial Intelligence</a>
+              <a href="category.html" class="tech-tag">Cybersecurity</a>
+              <a href="category.html" class="tech-tag">Cloud Computing</a>
+              <a href="category.html" class="tech-tag">Mobile Development</a>
+              <a href="category.html" class="tech-tag">Data Science</a>
+            </div>
+          </div>
+
           <div class="search-box mb-4" data-aos="fade-up" data-aos-delay="600">
-            <form action="#" class="search-form">
+            <form action="search-results.html" class="search-form">
               <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search for pages..." aria-label="Search">
+                <input type="text" class="form-control" placeholder="Search for technology articles, tutorials, or guides..." aria-label="Search">
                 <button class="btn search-btn" type="submit">
-                  <i class="bi bi-search"></i>
+                  <i class="bi bi-search"></i> Search
                 </button>
               </div>
             </form>
           </div>
 
-          <div class="error-action" data-aos="fade-up" data-aos-delay="700">
-            <a href="/" class="btn btn-primary">Back to Home</a>
+          <div class="error-actions d-flex flex-wrap justify-content-center gap-3" data-aos="fade-up" data-aos-delay="700">
+            <a href="index.html" class="btn btn-primary">
+              <i class="bi bi-house-door"></i> Back to Home
+            </a>
+            <a href="category.html" class="btn btn-outline-primary">
+              <i class="bi bi-journals"></i> Browse Categories
+            </a>
+            <a href="contact.html" class="btn btn-outline-secondary">
+              <i class="bi bi-envelope"></i> Report Broken Link
+            </a>
+          </div>
+
+          <div class="error-debug mt-5" data-aos="fade-up" data-aos-delay="800">
+            <details>
+              <summary class="debug-summary">
+                <i class="bi bi-terminal"></i> Technical Debug Information
+              </summary>
+              <div class="debug-content mt-3 text-start">
+                <p><strong>Status Code:</strong> 404 - Resource Not Found</p>
+                <p><strong>Possible Reasons:</strong></p>
+                <ul>
+                  <li>The URL may have been typed incorrectly</li>
+                  <li>The article may have been moved or archived</li>
+                  <li>The link you followed may be outdated</li>
+                  <li>Temporary server maintenance in progress</li>
+                </ul>
+                <p><strong>What to try:</strong></p>
+                <ol>
+                  <li>Check the URL for typos</li>
+                  <li>Use the search function above</li>
+                  <li>Browse our <a href="category.html">technology categories</a></li>
+                  <li>Visit our <a href="index.html">homepage</a> for latest articles</li>
+                </ol>
+              </div>
+            </details>
           </div>
         </div>
 
@@ -150,13 +196,13 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Blogy</span>
+            <span class="sitename">TechInsights</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p>123 Innovation Drive</p>
+            <p>San Francisco, CA 94107</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 (555) 123-4567</span></p>
+            <p><strong>Email:</strong> <span>info@techinsights.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -167,46 +213,46 @@
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
+          <h4>Quick Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="category.html">Categories</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4>Tech Categories</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Artificial Intelligence</a></li>
             <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#">Cybersecurity</a></li>
+            <li><a href="#">Cloud Computing</a></li>
+            <li><a href="#">Mobile Technology</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
+          <h4>Resources</h4>
           <ul>
-            <li><a href="#">Molestiae accusamus iure</a></li>
-            <li><a href="#">Excepturi dignissimos</a></li>
-            <li><a href="#">Suscipit distinctio</a></li>
-            <li><a href="#">Dilecta</a></li>
-            <li><a href="#">Sit quas consectetur</a></li>
+            <li><a href="#">Programming Tutorials</a></li>
+            <li><a href="#">Tech Reviews</a></li>
+            <li><a href="#">Industry Reports</a></li>
+            <li><a href="#">Developer Tools</a></li>
+            <li><a href="#">Learning Resources</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
+          <h4>Community</h4>
           <ul>
-            <li><a href="#">Ipsam</a></li>
-            <li><a href="#">Laudantium dolorum</a></li>
-            <li><a href="#">Dinera</a></li>
-            <li><a href="#">Trodelas</a></li>
-            <li><a href="#">Flexo</a></li>
+            <li><a href="#">Forums</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Tech Jobs</a></li>
+            <li><a href="#">Contributors</a></li>
+            <li><a href="#">Partner With Us</a></li>
           </ul>
         </div>
 
@@ -214,7 +260,7 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Blogy</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">TechInsights</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
