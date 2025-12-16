@@ -3589,3 +3589,7 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+/* Critical CSS Above-the-fold Content */
+.header { position: relative; }
+.logo { display: flex; }
+/* ... rest of your CSS */

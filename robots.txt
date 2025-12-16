@@ -1,0 +1,133 @@
+# TechInsights Robots.txt
+# Generated: April 14, 2025
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /includes/
+Disallow: /config/
+Disallow: /vendor/
+Disallow: /*.php$
+Disallow: /*.inc$
+Disallow: /*.sql$
+Disallow: /*.log$
+Disallow: /search-results.html?*q=*
+Disallow: /?replytocom=*
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+Disallow: /wp-login.php
+Disallow: /wp-signup.php
+
+# Allow search engines for main pages
+Allow: /index.html
+Allow: /about.html
+Allow: /category.html
+Allow: /blog-details.html
+Allow: /author-profile.html
+Allow: /contact.html
+
+# Sitemap location
+Sitemap: https://techinsights.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 2
+
+# Specific bot rules
+User-agent: Googlebot
+Allow: /
+Disallow: /private/
+Crawl-delay: 1
+
+User-agent: Googlebot-News
+Allow: /
+Disallow: /private/
+
+User-agent: Googlebot-Image
+Allow: /assets/img/
+Disallow: /assets/img/private/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /private/
+Crawl-delay: 2
+
+User-agent: Slurp
+Allow: /
+Disallow: /private/
+Crawl-delay: 3
+
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /private/
+
+User-agent: Baiduspider
+Allow: /
+Disallow: /private/
+Crawl-delay: 5
+
+User-agent: YandexBot
+Allow: /
+Disallow: /private/
+Crawl-delay: 3
+
+# Bad bots (block)
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: MauiBot
+Disallow: /
+
+# Development/staging environments
+User-agent: *
+Disallow: /staging/
+Disallow: /dev/
+Disallow: /test/
+Disallow: /localhost/
+
+# API endpoints (if any)
+User-agent: *
+Disallow: /api/
+Disallow: /ajax/
+Disallow: /json/
+
+# Feed files
+Allow: /feed/
+Allow: /rss/
+Allow: /atom/
+
+# Media files
+Allow: /assets/img/*.jpg$
+Allow: /assets/img/*.png$
+Allow: /assets/img/*.gif$
+Allow: /assets/img/*.webp$
+Allow: /assets/img/*.svg$
+Allow: /assets/video/*.mp4$
+Allow: /assets/video/*.webm$
+
+# CSS and JS
+Allow: /assets/css/*.css$
+Allow: /assets/js/*.js$
+
+# Font files
+Allow: /assets/fonts/*.woff$
+Allow: /assets/fonts/*.woff2$
+Allow: /assets/fonts/*.ttf$
+Allow: /assets/fonts/*.eot$
+
+# Host directives
+Host: https://techinsights.com
+
+# Comment: This robots.txt file is updated regularly to ensure optimal SEO performance.
+# Last updated: April 14, 2025

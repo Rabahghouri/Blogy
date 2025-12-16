@@ -1,67 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Modern Web Development: Best Practices for 2025 - TechInsights</title>
-  <meta name="description" content="Explore the latest web development trends, best practices, and future technologies for 2025. Learn about performance optimization, security, and modern frameworks.">
-  <meta name="keywords" content="web development, programming, JavaScript, React, performance optimization, web development trends 2025">
-
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" name="viewport">
+  <title>How AI is Transforming Industries in 2025 | TechInsights Detailed Analysis</title>
+  <meta name="description" content="Comprehensive analysis of how artificial intelligence is revolutionizing healthcare, finance, manufacturing, and other industries with real-world case studies and future predictions.">
+  <meta name="keywords" content="AI transformation, artificial intelligence 2025, industry automation, machine learning applications, AI in healthcare">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="author" content="Alex Johnson, TechInsights Editor">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://techinsights.com/blog-details.html">
+  <meta property="og:title" content="How AI is Transforming Industries in 2025">
+  <meta property="og:description" content="Detailed analysis of AI's impact across various industries">
+  <meta property="og:image" content="https://techinsights.com/assets/img/blog/blog-post-3.webp">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://techinsights.com/blog-details.html" />
+  
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+  
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-
+  
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Blogy
-  * Template URL: https://bootstrapmade.com/blogy-bootstrap-blog-template/
-  * Updated: Feb 22 2025 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- Article Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "How AI is Transforming Industries in 2025",
+    "image": ["https://techinsights.com/assets/img/blog/blog-post-3.webp"],
+    "datePublished": "2025-04-14T08:00:00+00:00",
+    "dateModified": "2025-04-14T08:00:00+00:00",
+    "author": {
+      "@type": "Person",
+      "name": "Alex Johnson"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "TechInsights",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://techinsights.com/assets/img/logo.webp"
+      }
+    }
+  }
+  </script>
 </head>
 
 <body class="blog-details-page">
 
   <header id="header" class="header position-relative">
+    <!-- Same header structure -->
     <div class="container-fluid container-xl position-relative">
-
       <div class="top-row d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-end">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.webp" alt=""> -->
           <h1 class="sitename">TechInsights</h1><span>.</span>
         </a>
-
         <div class="d-flex align-items-center">
           <div class="social-links">
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://facebook.com/techinsights" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com/techinsights" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="https://instagram.com/techinsights" class="instagram"><i class="bi bi-instagram"></i></a>
           </div>
-
-          <form class="search-form ms-4">
-            <input type="text" placeholder="Search tech articles..." class="form-control">
+          <form class="search-form ms-4" action="search-results.html" method="GET">
+            <input type="text" name="q" placeholder="Search..." class="form-control">
             <button type="submit" class="btn"><i class="bi bi-search"></i></button>
           </form>
         </div>
       </div>
-
     </div>
 
     <div class="nav-wrap">
@@ -73,734 +90,310 @@
             <li><a href="category.html">Categories</a></li>
             <li><a href="blog-details.html" class="active">Latest News</a></li>
             <li><a href="author-profile.html">Our Team</a></li>
-            <li class="dropdown"><a href="#"><span>Resources</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="category.html">Tech Categories</a></li>
-                <li><a href="blog-details.html" class="active">Latest News</a></li>
-                <li><a href="author-profile.html">Our Team</a></li>
-                <li><a href="search-results.html">Search Results</a></li>
-                <li><a href="404.html">404 Not Found Page</a></li>
-
-                <li class="dropdown"><a href="#"><span>Tech Topics</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                  <ul>
-                    <li><a href="#">Artificial Intelligence</a></li>
-                    <li><a href="#">Web Development</a></li>
-                    <li><a href="#">Cybersecurity</a></li>
-                    <li><a href="#">Cloud Computing</a></li>
-                    <li><a href="#">Mobile Apps</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
       </div>
     </div>
-
   </header>
 
   <main class="main">
-
-    <!-- Page Title -->
-    <div class="page-title">
-      <div class="breadcrumbs">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html"><i class="bi bi-house"></i> Home</a></li>
-            <li class="breadcrumb-item"><a href="category.html">Categories</a></li>
-            <li class="breadcrumb-item active current">Latest News</li>
-          </ol>
-        </nav>
-      </div>
-
-      <div class="title-wrapper">
-        <h1>Modern Web Development: Best Practices and Future Trends for 2025</h1>
-        <p>A comprehensive guide to the evolving landscape of web development, covering emerging technologies, performance optimization, and industry best practices.</p>
-      </div>
-    </div><!-- End Page Title -->
-
-    <div class="container">
-      <div class="row">
-
-        <div class="col-lg-8">
-
-          <!-- Blog Details Section -->
-          <section id="blog-details" class="blog-details section">
-            <div class="container" data-aos="fade-up">
-
-              <article class="article">
-
-                <div class="hero-img" data-aos="zoom-in">
-                  <img src="assets/img/blog/blog-post-3.webp" alt="Web development code editor with modern IDE" class="img-fluid" loading="lazy">
-                  <div class="meta-overlay">
-                    <div class="meta-categories">
-                      <a href="#" class="category">Web Development</a>
-                      <span class="divider">•</span>
-                      <span class="reading-time"><i class="bi bi-clock"></i> 8 min read</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="article-content" data-aos="fade-up" data-aos-delay="100">
-                  <div class="content-header">
-                    <h1 class="title">The Future of Web Development: Emerging Technologies and Best Practices for 2025</h1>
-
-                    <div class="author-info">
-                      <div class="author-details">
-                        <img src="assets/img/person/person-f-8.webp" alt="Sarah Anderson - Senior Web Developer" class="author-img">
-                        <div class="info">
-                          <h4>Sarah Anderson</h4>
-                          <span class="role">Senior Web Developer & Technical Lead</span>
-                        </div>
-                      </div>
-                      <div class="post-meta">
-                        <span class="date"><i class="bi bi-calendar3"></i> Mar 15, 2025</span>
-                        <span class="divider">•</span>
-                        <span class="comments"><i class="bi bi-chat-text"></i> 24 Comments</span>
-                        <span class="divider">•</span>
-                        <span class="views"><i class="bi bi-eye"></i> 3.2K views</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="content">
-                    <p class="lead">
-                      The web development landscape is undergoing one of its most significant transformations, driven by artificial intelligence, edge computing, and new JavaScript frameworks that promise to redefine how we build and experience the web.
-                    </p>
-
-                    <p>
-                      As we approach 2025, web developers face both exciting opportunities and complex challenges. The rise of AI-assisted development, the maturation of WebAssembly, and increasing demands for performance and accessibility are shaping a new era of web applications. This article explores the key trends, technologies, and methodologies that will dominate web development in the coming year.
-                    </p>
-
-                    <div class="content-image right-aligned">
-                      <img src="assets/img/blog/blog-hero-2.webp" class="img-fluid" alt="Modern development workflow with multiple screens" loading="lazy">
-                      <figcaption>Modern development environments emphasize real-time collaboration and AI-assisted coding</figcaption>
-                    </div>
-
-                    <h2>The Rise of AI-Assisted Development</h2>
-                    <p>
-                      Artificial Intelligence is no longer just a buzzword in web development—it's becoming an integral part of the developer workflow. AI-powered tools are transforming how we write, test, and optimize code:
-                    </p>
-                    <ul>
-                      <li><strong>Code Generation and Autocompletion:</strong> Tools like GitHub Copilot and Amazon CodeWhisperer are becoming increasingly sophisticated, predicting code patterns and suggesting entire functions.</li>
-                      <li><strong>Automated Testing:</strong> AI-driven testing frameworks can generate test cases, identify edge cases, and predict potential bugs before they reach production.</li>
-                      <li><strong>Performance Optimization:</strong> Machine learning algorithms analyze user behavior to optimize asset loading, caching strategies, and bundle splitting.</li>
-                      <li><strong>Accessibility Compliance:</strong> AI tools automatically scan and suggest improvements for WCAG compliance, making the web more accessible.</li>
-                    </ul>
-
-                    <div class="highlight-box">
-                      <h3>Key Development Trends for 2025</h3>
-                      <ul class="trend-list">
-                        <li>
-                          <i class="bi bi-lightning-charge"></i>
-                          <span>Edge Computing and Serverless Architecture</span>
-                          <p class="trend-description">Moving computation closer to users for reduced latency and improved performance.</p>
-                        </li>
-                        <li>
-                          <i class="bi bi-shield-check"></i>
-                          <span>Enhanced Security by Default</span>
-                          <p class="trend-description">Built-in security features and automated vulnerability scanning in development tools.</p>
-                        </li>
-                        <li>
-                          <i class="bi bi-phone"></i>
-                          <span>Progressive Web Apps (PWAs) as Standard</span>
-                          <p class="trend-description">PWAs becoming the default approach for mobile-first web experiences.</p>
-                        </li>
-                      </ul>
-                    </div>
-
-                    <h2>Performance Optimization: Beyond Core Web Vitals</h2>
-                    <p>
-                      While Core Web Vitals remain important, 2025 brings a more holistic approach to performance. Developers are focusing on:
-                    </p>
-
-                    <blockquote>
-                      <p>
-                        "Performance is no longer just about load times—it's about perceived performance, smooth interactions, and energy efficiency. A fast website that drains battery or causes device overheating fails the user experience test."
-                      </p>
-                      <cite>Dr. Michael Chen, Web Performance Architect at Google</cite>
-                    </blockquote>
-
-                    <div class="content-grid">
-                      <div class="row g-4">
-                        <div class="col-md-6">
-                          <div class="info-card">
-                            <i class="bi bi-speedometer2"></i>
-                            <h4>Advanced Performance Metrics</h4>
-                            <p>Beyond Core Web Vitals: Interaction to Next Paint (INP), Cumulative Layout Shift (CLS), and Energy Consumption metrics.</p>
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="info-card">
-                            <i class="bi bi-universal-access"></i>
-                            <h4>Inclusive Design</h4>
-                            <p>Accessibility-first development with automated testing for screen readers, keyboard navigation, and color contrast.</p>
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="info-card">
-                            <i class="bi bi-battery-charging"></i>
-                            <h4>Energy Efficiency</h4>
-                            <p>Optimizing for device battery life and thermal management, especially for mobile and IoT devices.</p>
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="info-card">
-                            <i class="bi bi-globe-americas"></i>
-                            <h4>Global Performance</h4>
-                            <p>Edge computing strategies and regional CDN optimization for worldwide user bases.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <h2>The JavaScript Framework Landscape</h2>
-                    <p>
-                      The JavaScript ecosystem continues to evolve, with several notable trends emerging:
-                    </p>
-
-                    <h3>React's Continued Dominance</h3>
-                    <p>
-                      React 19 introduces significant improvements, including automatic memoization, enhanced server components, and better developer tooling. The introduction of React Forget (compiler) promises to eliminate the need for manual memoization hooks.
-                    </p>
-
-                    <h3>Vue's Growing Ecosystem</h3>
-                    <p>
-                      Vue 3.4 solidifies its position with improved TypeScript support, better performance, and Nuxt 3 becoming the go-to framework for full-stack Vue applications.
-                    </p>
-
-                    <h3>The Rise of Meta-Frameworks</h3>
-                    <p>
-                      Frameworks like Next.js, Remix, and SvelteKit are becoming the standard for production applications, offering built-in solutions for routing, data fetching, and deployment.
-                    </p>
-
-                    <h2>Looking Forward: The 2025 Developer Toolkit</h2>
-                    <p>
-                      As we look toward 2025, successful web developers will need to master a diverse set of skills and tools:
-                    </p>
-                    <ol>
-                      <li><strong>Full-Stack Proficiency:</strong> Understanding both frontend and backend development, with particular emphasis on edge computing and serverless architectures.</li>
-                      <li><strong>AI Literacy:</strong> Comfort with AI-assisted development tools and understanding when and how to leverage machine learning in web applications.</li>
-                      <li><strong>Performance Engineering:</strong> Deep knowledge of browser internals, network protocols, and optimization techniques.</li>
-                      <li><strong>Security Mindset:</strong> Built-in security practices, understanding of common vulnerabilities, and implementation of modern authentication methods.</li>
-                    </ol>
-
-                    <p>
-                      The web development landscape of 2025 is both challenging and exciting. By embracing emerging technologies while maintaining focus on core principles of performance, accessibility, and user experience, developers can build the next generation of web applications that are faster, more secure, and more capable than ever before.
-                    </p>
-                  </div>
-
-                  <div class="meta-bottom">
-                    <div class="tags-section">
-                      <h4>Related Topics</h4>
-                      <div class="tags">
-                        <a href="#" class="tag">JavaScript</a>
-                        <a href="#" class="tag">React</a>
-                        <a href="#" class="tag">Performance</a>
-                        <a href="#" class="tag">Web Development</a>
-                        <a href="#" class="tag">AI Programming</a>
-                        <a href="#" class="tag">Frontend</a>
-                        <a href="#" class="tag">Best Practices</a>
-                        <a href="#" class="tag">2025 Trends</a>
-                      </div>
-                    </div>
-
-                    <div class="share-section">
-                      <h4>Share This Article</h4>
-                      <div class="social-links">
-                        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i> Twitter</a>
-                        <a href="#" class="facebook"><i class="bi bi-facebook"></i> Facebook</a>
-                        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i> LinkedIn</a>
-                        <a href="#" class="copy-link" title="Copy Link"><i class="bi bi-link-45deg"></i> Copy Link</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </article>
-
+    <!-- Article Header -->
+    <section class="article-header section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="article-meta mb-4">
+              <span class="category-badge">Artificial Intelligence</span>
+              <span class="date">April 14, 2025</span>
+              <span class="read-time">12 min read</span>
             </div>
-          </section><!-- /Blog Details Section -->
-
-          <!-- Blog Author Section -->
-          <section id="blog-author" class="blog-author section">
-
-            <div class="container" data-aos="fade-up">
-              <div class="author-box">
-                <div class="row align-items-center">
-                  <div class="col-lg-3 col-md-4 text-center">
-                    <img src="assets/img/person/person-f-12.webp" class="author-img rounded-circle" alt="Sarah Anderson - Senior Web Developer" loading="lazy">
-
-                    <div class="author-social-links mt-3">
-                      <a href="https://twitter.com/#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-                      <a href="https://linkedin.com/#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-                      <a href="https://github.com/#" class="github"><i class="bi bi-github"></i></a>
-                      <a href="https://facebook.com/#" class="facebook"><i class="bi bi-facebook"></i></a>
-                      <a href="https://instagram.com/#" class="instagram"><i class="bi bi-instagram"></i></a>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-9 col-md-8">
-                    <div class="author-content">
-                      <h3 class="author-name">Sarah Anderson</h3>
-                      <span class="author-title">Senior Web Developer & Technical Lead at TechInsights</span>
-
-                      <div class="author-bio mt-3">
-                        Sarah has over 10 years of experience in full-stack web development, specializing in JavaScript frameworks, performance optimization, and scalable architecture. She has contributed to major open-source projects and regularly speaks at international tech conferences about web development best practices and emerging trends.
-                      </div>
-
-                      <div class="author-website mt-3">
-                        <a href="#" class="website-link">
-                          <i class="bi bi-globe"></i>
-                          <span>sarahanderson.dev</span>
-                        </a>
-                        <a href="#" class="more-posts">
-                          Read More Articles by Sarah <i class="bi bi-arrow-right"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            
+            <h1 class="article-title mb-4" data-aos="fade-up">How AI is Transforming Industries in 2025: A Comprehensive Analysis</h1>
+            
+            <div class="author-info d-flex align-items-center mb-5" data-aos="fade-up" data-aos-delay="100">
+              <img src="assets/img/person/person-m-10.webp" alt="Alex Johnson - AI Expert" class="author-avatar">
+              <div class="author-details ms-3">
+                <h5 class="author-name">Alex Johnson</h5>
+                <p class="author-title">Senior AI Editor & Former Google Engineer</p>
+              </div>
+              <div class="social-share ms-auto">
+                <span>Share:</span>
+                <a href="#" class="ms-2"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="ms-2"><i class="bi bi-linkedin"></i></a>
+                <a href="#" class="ms-2"><i class="bi bi-facebook"></i></a>
               </div>
             </div>
-
-          </section><!-- /Blog Author Section -->
-
-          <!-- Blog Comments Section -->
-          <section id="blog-comments" class="blog-comments section">
-
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-              <div class="blog-comments-3">
-                <div class="section-header">
-                  <h3>Discussion <span class="comment-count">(24)</span></h3>
-                  <p>Join the conversation with fellow developers and tech enthusiasts</p>
-                </div>
-
-                <div class="comments-wrapper">
-                  <!-- Comment 1 -->
-                  <article class="comment-card">
-                    <div class="comment-header">
-                      <div class="user-info">
-                        <img src="assets/img/person/person-f-9.webp" alt="Alex Johnson - Frontend Developer" loading="lazy">
-                        <div class="meta">
-                          <h4 class="name">Alex Johnson</h4>
-                          <span class="date"><i class="bi bi-calendar3"></i> March 16, 2025</span>
-                          <span class="user-role">Frontend Developer</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="comment-content">
-                      <p>Great article! The section on AI-assisted development particularly resonates with our team's experience. We've been using GitHub Copilot Enterprise for six months, and it's reduced our boilerplate code by about 40%. However, we've found that it requires careful review to ensure code quality standards are maintained.</p>
-                    </div>
-                    <div class="comment-actions">
-                      <button class="action-btn like-btn">
-                        <i class="bi bi-hand-thumbs-up"></i>
-                        <span>18</span>
-                      </button>
-                      <button class="action-btn reply-btn">
-                        <i class="bi bi-reply"></i>
-                        <span>Reply</span>
-                      </button>
-                    </div>
-                  </article>
-
-                  <!-- Comment 2 with replies -->
-                  <article class="comment-card">
-                    <div class="comment-header">
-                      <div class="user-info">
-                        <img src="assets/img/person/person-m-9.webp" alt="David Rodriguez - Senior Engineer" loading="lazy">
-                        <div class="meta">
-                          <h4 class="name">David Rodriguez</h4>
-                          <span class="date"><i class="bi bi-calendar3"></i> March 16, 2025</span>
-                          <span class="user-role">Senior Engineer at CloudTech</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="comment-content">
-                      <p>Excellent overview of the 2025 landscape. I'm curious about the energy efficiency metrics mentioned—are there any standardized tools for measuring web application energy consumption yet? We're developing applications for emerging markets where battery life is a critical concern for our users.</p>
-                    </div>
-                    <div class="comment-actions">
-                      <button class="action-btn like-btn">
-                        <i class="bi bi-hand-thumbs-up"></i>
-                        <span>12</span>
-                      </button>
-                      <button class="action-btn reply-btn">
-                        <i class="bi bi-reply"></i>
-                        <span>Reply</span>
-                      </button>
-                    </div>
-
-                    <!-- Reply Thread -->
-                    <div class="reply-thread">
-                      <!-- Reply 1 -->
-                      <article class="comment-card reply">
-                        <div class="comment-header">
-                          <div class="user-info">
-                            <img src="assets/img/person/person-f-9.webp" alt="Sarah Anderson - Author" loading="lazy">
-                            <div class="meta">
-                              <h4 class="name">Sarah Anderson</h4>
-                              <span class="date"><i class="bi bi-calendar3"></i> March 17, 2025</span>
-                              <span class="user-role">Article Author</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="comment-content">
-                          <p>Great question, David! The Chrome DevTools team has been experimenting with energy consumption profiling in Canary builds. There are also emerging APIs like the Battery Status API (with privacy considerations) and third-party tools like WebPageTest's energy scoring. I'll be covering this in more detail in next month's performance optimization deep dive.</p>
-                        </div>
-                        <div class="comment-actions">
-                          <button class="action-btn like-btn">
-                            <i class="bi bi-hand-thumbs-up"></i>
-                            <span>9</span>
-                          </button>
-                        </div>
-                      </article>
-
-                      <!-- Reply 2 -->
-                      <article class="comment-card reply">
-                        <div class="comment-header">
-                          <div class="user-info">
-                            <img src="assets/img/person/person-f-7.webp" alt="Maria Chen - Performance Engineer" loading="lazy">
-                            <div class="meta">
-                              <h4 class="name">Maria Chen</h4>
-                              <span class="date"><i class="bi bi-calendar3"></i> March 17, 2025</span>
-                              <span class="user-role">Performance Engineer</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="comment-content">
-                          <p>Adding to Sarah's points, our team has been using the Performance API's energy estimate interface (still experimental) and found that reducing JavaScript execution time and optimizing WebGL usage had the biggest impact on energy consumption for our graphics-heavy applications.</p>
-                        </div>
-                        <div class="comment-actions">
-                          <button class="action-btn like-btn">
-                            <i class="bi bi-hand-thumbs-up"></i>
-                            <span>7</span>
-                          </button>
-                        </div>
-                      </article>
-                    </div>
-                  </article>
-
-                  <!-- Comment 3 -->
-                  <article class="comment-card">
-                    <div class="comment-header">
-                      <div class="user-info">
-                        <img src="assets/img/person/person-m-6.webp" alt="James Wilson - CTO" loading="lazy">
-                        <div class="meta">
-                          <h4 class="name">James Wilson</h4>
-                          <span class="date"><i class="bi bi-calendar3"></i> March 15, 2025</span>
-                          <span class="user-role">CTO at StartupScale</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="comment-content">
-                      <p>This article perfectly captures why we're shifting to edge-first architecture. The latency improvements for our global user base have been dramatic—we're seeing 40-60% reduction in API response times by moving compute to Cloudflare Workers and AWS Lambda@Edge. The security implications mentioned are crucial though; edge computing introduces new attack surfaces that need careful consideration.</p>
-                    </div>
-                    <div class="comment-actions">
-                      <button class="action-btn like-btn">
-                        <i class="bi bi-hand-thumbs-up"></i>
-                        <span>15</span>
-                      </button>
-                      <button class="action-btn reply-btn">
-                        <i class="bi bi-reply"></i>
-                        <span>Reply</span>
-                      </button>
-                    </div>
-                  </article>
-                </div>
-              </div>
-
+            
+            <div class="featured-image mb-5" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/blog/blog-post-3.webp" alt="AI Transforming Industries - Healthcare, Finance, Manufacturing" class="img-fluid rounded">
+              <div class="image-caption">AI applications across different industries - Image generated by AI</div>
             </div>
-
-          </section><!-- /Blog Comments Section -->
-
-          <!-- Blog Comment Form Section -->
-          <section id="blog-comment-form" class="blog-comment-form section">
-
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-              <form method="post" role="form">
-
-                <div class="section-header">
-                  <h3>Join the Discussion</h3>
-                  <p>Share your thoughts, experiences, or questions about modern web development. Your email address will not be published. Required fields are marked *</p>
-                </div>
-
-                <div class="row gy-3">
-                  <div class="col-md-6 form-group">
-                    <label for="name">Full Name *</label>
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Enter your full name" required="">
-                  </div>
-
-                  <div class="col-md-6 form-group">
-                    <label for="email">Email Address *</label>
-                    <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email address" required="">
-                  </div>
-
-                  <div class="col-12 form-group">
-                    <label for="website">Website or GitHub Profile</label>
-                    <input type="url" name="website" class="form-control" id="website" placeholder="https://yourwebsite.com or https://github.com/username">
-                  </div>
-
-                  <div class="col-12 form-group">
-                    <label for="comment">Your Comment *</label>
-                    <textarea class="form-control" name="comment" id="comment" rows="6" placeholder="Share your thoughts on web development trends, ask questions, or provide feedback..." required=""></textarea>
-                  </div>
-
-                  <div class="col-12 form-check mb-3">
-                    <input class="form-check-input" type="checkbox" id="notify-replies">
-                    <label class="form-check-label" for="notify-replies">
-                      Notify me of follow-up comments via email
-                    </label>
-                  </div>
-
-                  <div class="col-12 text-center">
-                    <button type="submit" class="btn-submit">Post Comment</button>
-                  </div>
-                </div>
-
-              </form>
-
-            </div>
-
-          </section><!-- /Blog Comment Form Section -->
-
-        </div>
-
-        <div class="col-lg-4 sidebar">
-
-          <div class="widgets-container" data-aos="fade-up" data-aos-delay="200">
-
-            <!-- Search Widget -->
-            <div class="search-widget widget-item">
-
-              <h3 class="widget-title">Search Tech Articles</h3>
-              <form action="">
-                <input type="text" placeholder="Type keywords...">
-                <button type="submit" title="Search"><i class="bi bi-search"></i></button>
-              </form>
-
-            </div><!--/Search Widget -->
-
-            <!-- Popular Categories Widget -->
-            <div class="categories-widget widget-item">
-
-              <h3 class="widget-title">Popular Tech Categories</h3>
-              <ul class="mt-3">
-                <li><a href="#">Web Development <span>(42)</span></a></li>
-                <li><a href="#">Artificial Intelligence <span>(36)</span></a></li>
-                <li><a href="#">Cybersecurity <span>(28)</span></a></li>
-                <li><a href="#">Cloud Computing <span>(25)</span></a></li>
-                <li><a href="#">Mobile Development <span>(22)</span></a></li>
-                <li><a href="#">DevOps & CI/CD <span>(19)</span></a></li>
-                <li><a href="#">Data Science <span>(17)</span></a></li>
-                <li><a href="#">Programming Languages <span>(31)</span></a></li>
-              </ul>
-
-            </div><!--/Categories Widget -->
-
-            <!-- Trending Articles Widget -->
-            <div class="categories-widget widget-item">
-
-              <h3 class="widget-title">Trending This Week</h3>
-              <ul class="mt-3">
-                <li><a href="#">React 19: What's New and Breaking Changes <span class="trend-indicator">🔥</span></a></li>
-                <li><a href="#">Zero Trust Architecture Implementation Guide</a></li>
-                <li><a href="#">Quantum Computing for Developers: Primer</a></li>
-                <li><a href="#">AWS vs Azure vs GCP: 2025 Comparison</a></li>
-                <li><a href="#">WebAssembly: Beyond the Browser</a></li>
-                <li><a href="#">The Future of TypeScript: 5.0 Features</a></li>
-              </ul>
-
-            </div><!--/Categories Widget -->
-
-            <!-- Recent Posts Widget -->
-            <div class="recent-posts-widget widget-item">
-
-              <h3 class="widget-title">Latest Tech Articles</h3>
-
-              <div class="post-item">
-                <img src="assets/img/blog/blog-post-square-1.webp" alt="AI Code Generation" class="flex-shrink-0">
-                <div>
-                  <h4><a href="blog-details.html">AI-Powered Code Generation: Revolution or Risk?</a></h4>
-                  <time datetime="2024-03-14">Mar 14, 2025</time>
-                  <span class="post-category">AI Development</span>
-                </div>
-              </div><!-- End recent post item-->
-
-              <div class="post-item">
-                <img src="assets/img/blog/blog-post-square-2.webp" alt="Cybersecurity Threats" class="flex-shrink-0">
-                <div>
-                  <h4><a href="blog-details.html">Top 10 Cybersecurity Threats for Web Applications in 2025</a></h4>
-                  <time datetime="2024-03-12">Mar 12, 2025</time>
-                  <span class="post-category">Security</span>
-                </div>
-              </div><!-- End recent post item-->
-
-              <div class="post-item">
-                <img src="assets/img/blog/blog-post-square-3.webp" alt="Cloud Architecture" class="flex-shrink-0">
-                <div>
-                  <h4><a href="blog-details.html">Serverless Architecture Patterns for Scalable Applications</a></h4>
-                  <time datetime="2024-03-10">Mar 10, 2025</time>
-                  <span class="post-category">Cloud</span>
-                </div>
-              </div><!-- End recent post item-->
-
-              <div class="post-item">
-                <img src="assets/img/blog/blog-post-square-4.webp" alt="Mobile Development" class="flex-shrink-0">
-                <div>
-                  <h4><a href="blog-details.html">Cross-Platform Mobile Development: Flutter vs React Native 2025</a></h4>
-                  <time datetime="2024-03-08">Mar 8, 2025</time>
-                  <span class="post-category">Mobile</span>
-                </div>
-              </div><!-- End recent post item-->
-
-              <div class="post-item">
-                <img src="assets/img/blog/blog-post-square-5.webp" alt="DevOps Automation" class="flex-shrink-0">
-                <div>
-                  <h4><a href="blog-details.html">Automating DevOps: CI/CD Best Practices for Modern Teams</a></h4>
-                  <time datetime="2024-03-06">Mar 6, 2025</time>
-                  <span class="post-category">DevOps</span>
-                </div>
-              </div><!-- End recent post item-->
-
-            </div><!--/Recent Posts Widget -->
-
-            <!-- Tags Widget -->
-            <div class="tags-widget widget-item">
-
-              <h3 class="widget-title">Tech Topics & Languages</h3>
-              <ul>
-                <li><a href="#">JavaScript</a></li>
-                <li><a href="#">TypeScript</a></li>
-                <li><a href="#">Python</a></li>
-                <li><a href="#">React</a></li>
-                <li><a href="#">Vue</a></li>
-                <li><a href="#">Angular</a></li>
-                <li><a href="#">Node.js</a></li>
-                <li><a href="#">AWS</a></li>
-                <li><a href="#">Docker</a></li>
-                <li><a href="#">Kubernetes</a></li>
-                <li><a href="#">Machine Learning</a></li>
-                <li><a href="#">API Design</a></li>
-                <li><a href="#">Web Security</a></li>
-                <li><a href="#">Performance</a></li>
-                <li><a href="#">Accessibility</a></li>
-              </ul>
-
-            </div><!--/Tags Widget -->
-
           </div>
-
         </div>
-
       </div>
-    </div>
+    </section>
 
+    <!-- Article Content -->
+    <section class="article-content section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <article class="blog-content">
+              <!-- Introduction -->
+              <div class="content-section" data-aos="fade-up">
+                <p class="lead">Artificial Intelligence has moved beyond theoretical discussions and is now actively reshaping entire industries. In 2025, we're witnessing unprecedented integration of AI technologies across sectors, creating efficiencies, enabling innovation, and transforming business models.</p>
+                
+                <div class="key-takeaways my-5 p-4 bg-light rounded">
+                  <h4><i class="bi bi-lightbulb me-2"></i>Key Takeaways</h4>
+                  <ul>
+                    <li>AI is projected to contribute $15.7 trillion to the global economy by 2030</li>
+                    <li>Healthcare AI market expected to reach $45.2 billion by 2026</li>
+                    <li>75% of enterprises will shift from piloting to operationalizing AI by 2025</li>
+                    <li>AI-driven automation could affect 50% of current work activities</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Healthcare Section -->
+              <div class="content-section" data-aos="fade-up" data-aos-delay="100">
+                <h2>1. Revolutionizing Healthcare</h2>
+                <p>The healthcare industry is experiencing one of the most significant transformations through AI integration:</p>
+                
+                <h4>Medical Diagnostics</h4>
+                <p>AI algorithms are now outperforming human radiologists in detecting conditions like breast cancer, lung nodules, and diabetic retinopathy. Systems like Google's DeepMind can analyze 3D medical scans in seconds, identifying issues that might be missed by human eyes.</p>
+                
+                <div class="stat-highlight my-4 p-3 border-start border-primary">
+                  <p><strong>Statistic:</strong> AI-powered diagnostics have shown 94% accuracy in detecting certain cancers, compared to 88% for human specialists.</p>
+                </div>
+                
+                <h4>Drug Discovery</h4>
+                <p>Traditional drug discovery takes 10-15 years and costs billions. AI is reducing this timeline dramatically:</p>
+                <ul>
+                  <li>Predicting molecular behavior and drug interactions</li>
+                  <li>Identifying potential drug candidates from millions of compounds</li>
+                  <li>Accelerating clinical trial design and patient selection</li>
+                </ul>
+              </div>
+
+              <!-- Finance Section -->
+              <div class="content-section" data-aos="fade-up" data-aos-delay="200">
+                <h2>2. Financial Services Transformation</h2>
+                <p>Banks and financial institutions are leveraging AI for enhanced security, efficiency, and customer service.</p>
+                
+                <h4>Fraud Detection</h4>
+                <p>Machine learning models analyze transaction patterns in real-time, detecting anomalies that could indicate fraud. These systems process millions of transactions per second, with accuracy rates exceeding 99%.</p>
+                
+                <h4>Algorithmic Trading</h4>
+                <p>AI-driven trading systems can analyze market data, news sentiment, and economic indicators to make millisecond trading decisions, often outperforming human traders.</p>
+                
+                <div class="case-study my-4 p-4 bg-light rounded">
+                  <h5><i class="bi bi-file-earmark-text me-2"></i>Case Study: JP Morgan's COIN</h5>
+                  <p>JP Morgan's Contract Intelligence (COIN) platform uses natural language processing to review legal documents. What took lawyers 360,000 hours annually now takes seconds, with higher accuracy.</p>
+                </div>
+              </div>
+
+              <!-- Manufacturing Section -->
+              <div class="content-section" data-aos="fade-up" data-aos-delay="300">
+                <h2>3. Smart Manufacturing</h2>
+                <p>Industry 4.0 is driven by AI-powered automation and predictive maintenance.</p>
+                
+                <h4>Predictive Maintenance</h4>
+                <p>AI sensors monitor equipment vibration, temperature, and performance, predicting failures before they occur. This reduces downtime by up to 50% and maintenance costs by 10-40%.</p>
+                
+                <h4>Quality Control</h4>
+                <p>Computer vision systems inspect products at production line speeds, detecting defects with superhuman accuracy. These systems learn from each inspection, continuously improving their detection capabilities.</p>
+              </div>
+
+              <!-- Code Example -->
+              <div class="content-section" data-aos="fade-up" data-aos-delay="400">
+                <h3>Technical Implementation Example</h3>
+                <p>Here's a simple Python example of an AI model for predictive maintenance:</p>
+                
+                <div class="code-block my-4">
+<pre><code class="language-python">import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+
+# Load sensor data
+data = pd.read_csv('equipment_sensors.csv')
+
+# Feature engineering
+features = ['vibration', 'temperature', 'pressure', 'rpm']
+X = data[features]
+y = data['failure_risk']
+
+# Split data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+
+# Train AI model
+model = RandomForestClassifier(n_estimators=100)
+model.fit(X_train, y_train)
+
+# Make predictions
+predictions = model.predict(X_test)
+accuracy = model.score(X_test, y_test)
+print(f"Model Accuracy: {accuracy:.2%}")</code></pre>
+                </div>
+              </div>
+
+              <!-- Conclusion -->
+              <div class="content-section" data-aos="fade-up" data-aos-delay="500">
+                <h2>Conclusion</h2>
+                <p>The AI revolution is no longer coming—it's here. Industries that embrace these technologies will gain significant competitive advantages, while those that don't risk obsolescence. The key to successful AI implementation lies in:</p>
+                <ol>
+                  <li>Starting with clear business objectives</li>
+                  <li>Ensuring data quality and governance</li>
+                  <li>Addressing ethical considerations and bias</li>
+                  <li>Upskilling the workforce for AI collaboration</li>
+                </ol>
+                <p>As we move through 2025 and beyond, the integration of AI will only deepen, creating new opportunities and challenges across all sectors of the economy.</p>
+              </div>
+
+              <!-- Tags -->
+              <div class="article-tags mt-5 pt-4 border-top">
+                <h5>Tags:</h5>
+                <a href="#" class="tag">Artificial Intelligence</a>
+                <a href="#" class="tag">Machine Learning</a>
+                <a href="#" class="tag">Digital Transformation</a>
+                <a href="#" class="tag">Industry 4.0</a>
+                <a href="#" class="tag">Future of Work</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Related Articles -->
+    <section class="related-articles section bg-light">
+      <div class="container">
+        <h3 class="mb-4">Related Articles</h3>
+        <div class="row g-4">
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="related-article-card">
+              <img src="assets/img/blog/blog-post-6.webp" alt="Python Data Science" class="img-fluid">
+              <div class="content">
+                <h5><a href="blog-details.html">The Rise of Python in Data Science</a></h5>
+                <p>Exploring Python's dominance in data analytics and machine learning</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="related-article-card">
+              <img src="assets/img/blog/blog-post-7.webp" alt="Cloud Computing" class="img-fluid">
+              <div class="content">
+                <h5><a href="blog-details.html">Comparing Cloud Platforms</a></h5>
+                <p>AWS vs Azure vs Google Cloud - 2025 comparison</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="related-article-card">
+              <img src="assets/img/blog/blog-post-9.webp" alt="Cybersecurity" class="img-fluid">
+              <div class="content">
+                <h5><a href="blog-details.html">Cybersecurity Threats 2025</a></h5>
+                <p>Top security challenges facing businesses this year</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comments Section -->
+    <section class="comments-section section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h3 class="mb-4">Comments (24)</h3>
+            
+            <!-- Comment Form -->
+            <div class="comment-form mb-5">
+              <h5>Leave a Comment</h5>
+              <form>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Your Name" required>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="email" class="form-control" placeholder="Your Email" required>
+                  </div>
+                  <div class="col-12">
+                    <textarea class="form-control" rows="4" placeholder="Your Comment" required></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Post Comment</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            
+            <!-- Existing Comments -->
+            <div class="comments-list">
+              <!-- Comment 1 -->
+              <div class="comment mb-4">
+                <div class="comment-header d-flex align-items-center mb-2">
+                  <img src="assets/img/person/person-f-13.webp" alt="Sarah Chen" class="comment-avatar">
+                  <div class="ms-3">
+                    <h6 class="mb-0">Sarah Chen</h6>
+                    <small class="text-muted">Data Scientist | 2 hours ago</small>
+                  </div>
+                </div>
+                <div class="comment-body">
+                  <p>Excellent analysis! I particularly appreciated the healthcare section. At our hospital, we've implemented similar AI diagnostics and seen a 30% reduction in diagnostic errors.</p>
+                </div>
+              </div>
+              
+              <!-- Comment 2 -->
+              <div class="comment mb-4">
+                <div class="comment-header d-flex align-items-center mb-2">
+                  <img src="assets/img/person/person-m-11.webp" alt="Michael Rodriguez" class="comment-avatar">
+                  <div class="ms-3">
+                    <h6 class="mb-0">Michael Rodriguez</h6>
+                    <small class="text-muted">Manufacturing Engineer | 5 hours ago</small>
+                  </div>
+                </div>
+                <div class="comment-body">
+                  <p>Great article! Could you expand more on the predictive maintenance algorithms? What specific ML models work best for industrial equipment?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer id="footer" class="footer">
-
+    <!-- Same footer as index.html -->
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
             <span class="sitename">TechInsights</span>
           </a>
-          <div class="footer-contact pt-3">
-            <p>123 Innovation Drive</p>
-            <p>San Francisco, CA 94107</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 (555) 123-4567</span></p>
-            <p><strong>Email:</strong> <span>info@techinsights.com</span></p>
-          </div>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
         </div>
-
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Quick Links</h4>
+          <h4>Categories</h4>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="category.html">Categories</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Service</a></li>
+            <li><a href="category.html?category=ai">AI</a></li>
+            <li><a href="category.html?category=web">Web Dev</a></li>
+            <li><a href="category.html?category=security">Security</a></li>
           </ul>
         </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Tech Categories</h4>
-          <ul>
-            <li><a href="#">Artificial Intelligence</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Cybersecurity</a></li>
-            <li><a href="#">Cloud Computing</a></li>
-            <li><a href="#">Mobile Technology</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Resources</h4>
-          <ul>
-            <li><a href="#">Programming Tutorials</a></li>
-            <li><a href="#">Tech Reviews</a></li>
-            <li><a href="#">Industry Reports</a></li>
-            <li><a href="#">Developer Tools</a></li>
-            <li><a href="#">Learning Resources</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Community</h4>
-          <ul>
-            <li><a href="#">Forums</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Tech Jobs</a></li>
-            <li><a href="#">Contributors</a></li>
-            <li><a href="#">Partner With Us</a></li>
-          </ul>
-        </div>
-
       </div>
     </div>
-
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">TechInsights</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
     </div>
-
   </footer>
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-
-  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  
 </body>
-
 </html>
